@@ -1,0 +1,85 @@
+body{
+    background-color:darkorchid;
+}
+.topContainer{
+    border: solid lightpink;
+    padding: 1em;
+    /* height: 42vh;   */
+    margin: 1em;
+}
+.midContainer{
+    border: solid lightpink;
+    height: 42vh; 
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lowerContainer{
+    border: solid lightpink;
+    height: 42vh;
+    margin: 1em;
+}
+.phaseContainer{
+    /* border: solid blueviolet; */
+    border-width: .2px;
+}
+.phase{
+    display: flex;
+    padding: 1em;
+}
+.phase:hover {
+    background-color:#ff00e6;
+    border: solid black;
+    transition: .3s;
+    display: flex;
+    padding: 1em;
+}
+.pTitle{
+    Width:100%;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+}
+.description{
+    padding: 15px;
+    width: 100%;
+    text-align:center;
+    font-style: italic;
+    color: white;
+}
+.topTitle{
+    width: 100%;
+    border: solid orange;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+}
+.attnBtn{
+    border: solid black;
+    margin: 1em;
+    text-align: center;
+    width: 20%;
+    border-radius: 22px;
+    font: 24px;
+    background-color: #42f7dc;
+    color: black;
+}
+.attnBtn:hover{
+    background-color: blueviolet;
+    border: solid black;
+    transition: .3s;
+    display: flex;
+    padding: 1em;
+}
+.lowerTitle{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.notes{
+    color: white;
+    text-align: left;
+    font-size: 16px;
+}
